@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,63 +9,76 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="@color/colorPrimaryDark"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/search"
+                android:scaleType="centerCrop"
+                android:layout_margin="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="0dp"
             android:layout_weight="2"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorPrimaryDark"
             android:orientation="vertical"
             android:padding="2dp">
 
-            <TextView
+          <!--  <TextView
                 android:id="@+id/text0"
-                android:layout_margin="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app0"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:textAllCaps="true"/>
+                android:layout_alignParentTop="true"
+                android:layout_margin="4dp"
+                android:text="0ne"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/text1"
-                android:layout_margin="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app1"
-                android:textColor="@color/white"
-                android:textSize="16sp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:textAllCaps="true"/>
+                android:layout_margin="4dp"
+                android:text="two"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/text2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAllCaps="true"
-                android:layout_margin="4dp"
-
-                android:text="@string/app2"
-                android:textColor="@color/white"
-                android:textSize="16sp"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
-                />
+                android:layout_alignParentRight="true"
 
+                android:layout_alignParentTop="true"
+                android:layout_margin="4dp"
+                android:text="three"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+-->
 
         </RelativeLayout>
-
-
 
 
     </LinearLayout>

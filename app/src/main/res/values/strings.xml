@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">AlcJaribioQuizApp</string>
-    <string name="app0">easy</string>
-    <string name="app1">harder</string>
-    <string name="app2">expert</string>
+    <string name="appName">jaribioapp</string>
+    <string name="resultList">result</string>
 </resources>
